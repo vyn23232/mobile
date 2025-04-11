@@ -32,14 +32,15 @@
                 android:layout_height="150dp"
                 android:background="#EEECEC">
 
-                <ImageView
+                 <ImageView
                     android:id="@+id/imageView"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:contentDescription="App Logo"
                     android:rotation="0"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/ic_logo" />
+                    android:src="@drawable/ic_logo"
+                     tools:ignore="HardcodedText" />
             </FrameLayout>
 
             <TextView
@@ -52,7 +53,8 @@
                 android:textAlignment="center"
                 android:textColor="#003366"
                 android:textSize="24sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
 
             <!-- Short Description Section -->
             <TextView
@@ -64,7 +66,8 @@
                 android:layout_marginTop="1dp"
                 android:textAlignment="center"
                 android:fontFamily="@font/poppins"
-                android:layout_marginHorizontal="30dp" />
+                android:layout_marginHorizontal="30dp"
+                tools:ignore="HardcodedText" />
 
             <!-- Features Section -->
 
@@ -80,7 +83,8 @@
                 android:fontFamily="@font/poppins"
                 android:text="Sign Up"
                 android:textColor="#FFFFFF"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
 
             <TextView
                 android:id="@+id/featuresTitle"
@@ -92,7 +96,8 @@
                 android:text="HOW IT WORKS"
                 android:textColor="#003366"
                 android:textSize="24sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
 
             <!-- How it Works -->
             <TextView
@@ -105,7 +110,8 @@
                 android:fontFamily="@font/poppins_semibold"
                 android:text="Find your dream team in 3 simple steps"
                 android:textAlignment="center"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                tools:ignore="HardcodedText" />
 
             <TextView
                 android:id="@+id/subtitledescription"
@@ -116,7 +122,8 @@
                 android:fontFamily="@font/poppins"
                 android:text="CapstoneConnect makes it easy to find teammates with complementary skills and interest"
                 android:textAlignment="center"
-                android:textSize="16sp" />
+                android:textSize="16sp"
+                tools:ignore="HardcodedText" />
 
             <!-- First Icon Section -->
             <ImageView
@@ -134,7 +141,8 @@
                 android:fontFamily="@font/poppins_semibold"
                 android:text="Create your Account"
                 android:textAlignment="center"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                tools:ignore="HardcodedText" />
             <TextView
                 android:id="@+id/texticon1"
                 android:layout_width="wrap_content"
@@ -144,7 +152,8 @@
                 android:fontFamily="@font/poppins"
                 android:text="Show case your skills, project interest, goals, and your previous projects"
                 android:textAlignment="center"
-                android:textSize="12sp" />
+                android:textSize="12sp"
+                tools:ignore="HardcodedText" />
 
             <!-- Second Icon Section -->
             <ImageView
@@ -162,7 +171,8 @@
                 android:fontFamily="@font/poppins_semibold"
                 android:text="Swipe on potential Teammates"
                 android:textAlignment="center"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                tools:ignore="HardcodedText" />
             <TextView
                 android:id="@+id/texticon2"
                 android:layout_width="wrap_content"
@@ -172,7 +182,8 @@
                 android:fontFamily="@font/poppins"
                 android:text="Browse through profiles and swipe right on students who you’d like to work with"
                 android:textAlignment="center"
-                android:textSize="12sp" />
+                android:textSize="12sp"
+                tools:ignore="HardcodedText" />
 
             <!-- Third Icon Section -->
             <ImageView
@@ -190,7 +201,8 @@
                 android:fontFamily="@font/poppins_semibold"
                 android:text="Connect and Collaborate"
                 android:textAlignment="center"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                tools:ignore="HardcodedText" />
             <TextView
                 android:id="@+id/texticon3"
                 android:layout_width="wrap_content"
@@ -216,7 +228,8 @@
                 android:layout_marginTop="90dp"
                 android:textAlignment="center"
                 android:fontFamily="@font/poppins"
-                android:textColor="#B0B0B0" />
+                android:textColor="#B0B0B0"
+                tools:ignore="HardcodedText" />
 
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
