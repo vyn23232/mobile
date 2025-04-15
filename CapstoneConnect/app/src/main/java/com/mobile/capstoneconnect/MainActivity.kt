@@ -9,8 +9,8 @@ import androidx.appcompat.app.AppCompatActivity
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.notification_page)
-/*
+        setContentView(R.layout.setup_page2)
+        /*
         // Find the button
         val btnGetStarted = findViewById<Button>(R.id.btnGetStarted)
 
@@ -20,8 +20,8 @@ class MainActivity : AppCompatActivity() {
             showSignUpModal()
         }*/
     }
-
-    /*private fun showSignUpModal() {
+/*
+    private fun showSignUpModal() {
         // Create a Dialog
         val dialog = Dialog(this)
         dialog.setContentView(R.layout.modal_signup)
@@ -39,5 +39,5 @@ class MainActivity : AppCompatActivity() {
 
         // Show the dialog
         dialog.show()
-    }*/
+    } */
 }
