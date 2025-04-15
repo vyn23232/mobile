@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.setup_page2)
+        setContentView(R.layout.setup_page3)
         /*
         // Find the button
         val btnGetStarted = findViewById<Button>(R.id.btnGetStarted)
