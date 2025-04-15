@@ -6,7 +6,7 @@
     android:layout_height="match_parent">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/setupPage3Container"
+        android:id="@+id/setupPage4Container"
         android:layout_width="363dp"
         android:layout_height="815dp"
         android:layout_marginStart="24dp"
@@ -23,7 +23,7 @@
         app:layout_constraintVertical_bias="0.0">
 
         <ImageView
-            android:id="@+id/setupPage3LogoImage"
+            android:id="@+id/setupPage4LogoImage"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:layout_constraintEnd_toEndOf="parent"
@@ -32,7 +32,7 @@
             app:srcCompat="@drawable/ic_header_logo" />
 
         <TextView
-            android:id="@+id/setupPage3WelcomeText"
+            android:id="@+id/setupPage4WelcomeText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="40dp"
@@ -44,23 +44,23 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/setupPage3LogoImage" />
+            app:layout_constraintTop_toBottomOf="@+id/setupPage4LogoImage" />
 
         <TextView
-            android:id="@+id/setupPage3HeadlineText"
+            android:id="@+id/setupPage4HeadlineText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:fontFamily="@font/poppins"
-            android:text="Update your profile"
+            android:text="Complete your profile"
             android:textSize="24sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.496"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/setupPage3WelcomeText" />
+            app:layout_constraintTop_toBottomOf="@+id/setupPage4WelcomeText" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/setupPage3PhotoUploadCard"
+            android:id="@+id/setupPage4ContentCard"
             android:layout_width="336dp"
             android:layout_height="437dp"
             android:layout_marginTop="1dp"
@@ -70,25 +70,10 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.481"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/setupPage3HeadlineText">
-
-            <Button
-                android:id="@+id/setupPage3UploadPhotoButton"
-                android:layout_width="206dp"
-                android:layout_height="48dp"
-                android:backgroundTint="#93D5FF"
-                android:fontFamily="@font/poppins"
-                android:text="Upload your photo"
-                android:textColor="@color/black"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.498" />
-        </androidx.constraintlayout.widget.ConstraintLayout>
+            app:layout_constraintTop_toBottomOf="@+id/setupPage4HeadlineText" />
 
         <Button
-            android:id="@+id/setupPage3BackButton"
+            android:id="@+id/setupPage4BackButton"
             android:layout_width="156dp"
             android:layout_height="50dp"
             android:layout_marginTop="20dp"
@@ -98,10 +83,10 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.077"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/setupPage3PhotoUploadCard" />
+            app:layout_constraintTop_toBottomOf="@+id/setupPage4ContentCard" />
 
         <Button
-            android:id="@+id/setupPage3NextButton"
+            android:id="@+id/setupPage4NextButton"
             android:layout_width="156dp"
             android:layout_height="50dp"
             android:layout_marginTop="20dp"
@@ -111,6 +96,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.922"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/setupPage3PhotoUploadCard" />
+            app:layout_constraintTop_toBottomOf="@+id/setupPage4ContentCard" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
