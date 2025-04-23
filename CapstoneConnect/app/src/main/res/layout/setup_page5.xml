@@ -72,6 +72,7 @@
 
                     <!-- Name -->
                     <TextView
+                        android:layout_gravity="center"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Input your name"
@@ -79,6 +80,7 @@
                         android:fontFamily="@font/poppins" />
 
                     <EditText
+                        android:gravity="center"
                         android:id="@+id/setupPage5InputName"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -89,6 +91,7 @@
 
                     <!-- Role -->
                     <TextView
+                        android:layout_gravity="center"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Preferred Role"
@@ -96,6 +99,7 @@
                         android:fontFamily="@font/poppins" />
 
                     <EditText
+                        android:gravity="center"
                         android:id="@+id/setupPage5InputRole"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -106,6 +110,7 @@
 
                     <!-- About -->
                     <TextView
+                        android:layout_gravity="center"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="About You"
@@ -113,6 +118,7 @@
                         android:fontFamily="@font/poppins" />
 
                     <EditText
+                        android:gravity="center"
                         android:id="@+id/setupPage5InputAbout"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -124,6 +130,7 @@
 
                     <!-- Skills -->
                     <TextView
+                        android:layout_gravity="center"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Skills"
@@ -131,6 +138,7 @@
                         android:fontFamily="@font/poppins" />
 
                     <EditText
+                        android:gravity="center"
                         android:id="@+id/setupPage5InputSkills"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
