@@ -13,6 +13,36 @@
         android:theme="@style/Theme.CapstoneConnect"
         tools:targetApi="31">
         <activity
+            android:name=".SetupActivity8"
+            android:exported="false" />
+        <activity
+            android:name=".SetupActivity7"
+            android:exported="false" />
+        <activity
+            android:name=".SetupActivity6"
+            android:exported="false" />
+        <activity
+            android:name=".SetupActivity5"
+            android:exported="false" />
+        <activity
+            android:name=".SetupActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".SetupActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".SetupActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".SetupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NotificationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SignupActivity"
+            android:exported="false" /> <!-- Main activity with the launcher intent filter -->
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
@@ -21,6 +51,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
