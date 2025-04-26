@@ -30,11 +30,9 @@
         <activity
             android:name=".SetupActivity6"
             android:exported="false" />
-        <!--
-<activity
+        <activity
             android:name=".SetupActivity5"
             android:exported="false" />
-        -->
         <activity
             android:name=".SetupActivity4"
             android:exported="false" />
