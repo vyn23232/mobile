@@ -9,8 +9,8 @@ import androidx.appcompat.app.AppCompatActivity
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.nomessages_page)
-/*
+        setContentView(R.layout.activity_main)
+
         // Find the button
         val btnGetStarted = findViewById<Button>(R.id.btnGetStarted)
 
@@ -38,6 +38,6 @@ class MainActivity : AppCompatActivity() {
         }
 
         // Show the dialog
-        dialog.show()*/
+        dialog.show()
     }
 }
